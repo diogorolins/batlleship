@@ -1,0 +1,33 @@
+.rivalTable_board___td {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  font-size: 15px;
+  font-size: 15px;
+  color: #472b10;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(245, 219, 181);
+}
+
+.rivalTable_board___td____hit {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  color: rgb(245, 219, 181);
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(8, 78, 148);
+}
+
+.rivalTable_board___td____miss {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  font-size: 15px;
+  color: #472b10;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(198, 8, 8);
+}

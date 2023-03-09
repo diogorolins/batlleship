@@ -1,0 +1,23 @@
+services:
+  backend:
+    image: backend-battleship
+    ports:
+      - 8080:8080
+    networks:
+      - battleship
+  frontend:
+    image: frontend-battleship
+    ports:
+      - 3000:3000
+    networks:
+      - battleship
+  socket:
+    image: socket-battleship
+    ports:
+      - 3002:3002
+    environment:
+      - PORT=3002
+    networks:
+      - battleship
+networks:
+  battleship:
